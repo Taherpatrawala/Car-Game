@@ -1,0 +1,90 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    color: aliceblue;
+    background-image: url('/material/Forest-Top-Down-2D-Game-Tileset2.jpg');
+    background-size: cover;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: crimson;
+    width: 7rem;
+    height:4rem;
+    border-radius: 25px;
+    font-size: larger;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.start-screen{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: crimson;
+    width: 35vw;
+    height: 20vh;
+    border-radius: 25px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.start-screen-text{
+    margin: 0.2rem;
+}
+
+
+
+.game-area{
+    width: 400px;
+    height: 100vh;
+    background: rgb(26, 25, 25);
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    border-right: 6.5px dashed grey;
+    border-left: 6.5px dashed grey;
+}
+
+.car{
+    height: 77px;
+    width: 35px;
+    bottom: 120px;
+    position: absolute;
+    margin-left: 100px;
+    color: aliceblue;
+    background-image: url('/material/glibersat-Pigeau.svg');
+}
+
+.stripe{
+    margin-left: 195px;
+    background-color: aliceblue;
+    height: 100px;
+    width: 10px;
+    position: absolute;
+   
+}
+
+.enemyCar{
+    height: 74px;
+    width: 36px;
+    background-image: url('/material/glibersat_Nioubiteul.svg');
+    position: absolute;
+   
+    color: aliceblue;
+}
+
+
+
